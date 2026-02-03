@@ -1,0 +1,28 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;          /* space between items */
+  margin-top: 20px;
+}
+
+.main select {
+  padding: 6px 10px;
+}
+
+.btn1,
+.next {
+  padding: 6px 14px;
+  cursor: pointer;
+  background-color: #6e94e4;
+}
+
+.btn1:disabled,
+.next:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+label {
+  font-weight: 500;
+}

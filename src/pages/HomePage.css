@@ -1,0 +1,58 @@
+
+
+.container-home h1 {
+  grid-column: 1 / -1;   /* spans all 3 columns */
+  text-align: center;     /* optional: center the text */
+  margin-bottom: 20px;    /* spacing between heading and cards */
+}
+
+.container-home {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+/* Scroll To Top Button */
+.scroll-top-img {
+  position: fixed;       /* page ni fixed position */
+  bottom: 30px;          /* screen ni niche thi distance */
+  right: 30px;           /* screen ni right side thi distance */
+  padding: 10px 15px;    /* button ni padding */
+  background-color: rgb(72, 121, 184); 
+  color: #fff;           /* text color */
+  border: none;          /* border remove */
+  border-radius: 5px;    /* rounded corners */
+  cursor: pointer;       /* pointer on hover */
+  font-size: 20px;       /* font size */
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.2); /* subtle shadow */
+  z-index: 1000;         /* always on top */
+  transition: background-color 0.3s ease;
+  height: 70px;
+}
+
+.scroll-top-btn:hover {
+  background-color: #0056b3; /* hover color */
+}
+
+.container-home.light{
+    background-color: white;
+    color: black;
+}
+
+.container-home.dark{
+   background-color: black;
+   color: white;
+   display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.container-home.dark .card{
+   background-color: rgb(10, 10, 12);
+}
+
+.container-home{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  padding: 20px;
+}

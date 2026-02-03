@@ -1,0 +1,19 @@
+.create-post-page.light{
+    background-color: white;
+    color: white;
+    min-height: 100vh;
+}
+
+.create-post-page.dark{
+    background-color: rgb(46, 46, 46);
+    color: white;
+    min-height: 100vh;
+}
+
+.create-post-page {
+  min-height: calc(100vh - 80px); /* navbar height adjust */
+  display: flex;
+  justify-content: center;   /* horizontal center */
+  align-items: center;       /* vertical center */
+  padding: 20px;
+}

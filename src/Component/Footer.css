@@ -1,0 +1,19 @@
+.footer {
+  text-align: center;
+  padding: 12px 0;
+  height: 71px;
+  /* margin-top: 5%; <-- remove this */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Light mode */
+.footer.light {
+  background-color: rgb(72, 121, 184);
+  color: white;
+}
+
+/* Dark mode */
+.footer.dark {
+  background-color: rgb(10, 10, 12);
+  color: white;
+}

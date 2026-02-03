@@ -1,0 +1,73 @@
+/* OVERLAY */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+/* MODAL BOX */
+.modal-box {
+  background: #ffffff;
+  width: 380px;
+  max-width: 90%;
+  padding: 22px;
+  border-radius: 12px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  animation: scaleIn 0.25s ease;
+}
+
+/* INPUTS */
+.modal-box input,
+.modal-box select {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+}
+
+.modal-box input:focus,
+.modal-box select:focus {
+  border-color: #5b5be0;
+}
+
+/* BUTTONS */
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.btn {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn.cancel {
+  background: #ccc;
+  color: #000;
+}
+
+.btn.save {
+  background: #5b5be0;
+  color: #fff;
+}
+.disabled-field {
+  background-color: #f2f2f2;
+  cursor: not-allowed;
+  color: #777;
+}

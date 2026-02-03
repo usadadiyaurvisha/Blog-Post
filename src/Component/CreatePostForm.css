@@ -1,0 +1,53 @@
+.form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+    color: black;
+}
+
+
+.mainform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.area{
+    height: 40px;
+    width: 500px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+.desc{
+    height: 90px;
+    width: 500px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 8px;
+    padding: 10px;
+    
+}
+ .btn{
+    background-color: rgb(193, 200, 230);
+    border-radius: 5px;
+    width: 250px;
+    height: 35px;
+    color: white;
+    border: 0;
+    margin-bottom: 15px;
+}
+.btn-row {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* button વચ્ચે થોડી space */
+}
+
+.cancel-btn {
+  background-color: rgb(61, 88, 209);
+  color: white;
+}
